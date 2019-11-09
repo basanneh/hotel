@@ -1,0 +1,93 @@
+#navbar .logo {
+    float: none;
+    text-align: center;
+}
+
+#navbar ul, #navbar ul li {
+    float: none;
+}
+
+#navbar ul li a {
+    padding: 5px;
+    border-bottom: #444 dotted 1px;
+}
+/* Showcase */
+#showcase {
+    height: 100%;
+    
+}
+
+#showcase .showcase-content {
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+/* Home Info */
+#home-info {
+    height: 550px;
+}
+
+#home-info .info-img {
+    display: none;
+}
+
+#home-info .info-content {
+    float: none;
+    width: 100%;
+
+}
+
+/* Boxes */
+
+.box {
+    float: none;
+    width: 100%;
+}
+
+/* #about-info .info-right, 
+#about-info .info-left {
+    float: none;
+    width: 100%;
+    /* padding: 10px; */
+} */
+
+
+#about-info .info-left {
+    float: left;
+    width: 50%;
+    min-height: 100%
+    padding: 10px;
+}
+
+#about-info .info-left .l-heading {
+    padding: 20px;
+}
+
+
+
+#about-info .info-right {
+   margin-top: 30px;
+   margin-bottom: 30px;
+   /* test */
+   float: right;
+   width: 50%;
+   min-height: 100%; 
+   padding: 10px;
+}
+
+/* Contact */
+#contact-info .box {
+    border-bottom: #444 dotted 1px;
+}
+#contact-form .container input,
+#contact-form .container textarea,
+#contact-form .container button
+{
+    border-radius : 5px;
+    
+}
+#contact-form .container .l-heading {
+    padding: 10px;
+    text-align: center;  
+}
